@@ -1,12 +1,37 @@
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
+/* header-section */
 .header {
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+
+}
+
+.home {
+    color:blue;
+    font-size: 18px;
+}
+.about{
+    color: coral;
+    font-size: 18px;
+}   
+.service{
+    color: crimson;
+    font-size: 18px;
+}
+.nav-title {
+    display:inline;
+    
+    
+    
+    
+    
+
 
 }
 
@@ -34,8 +59,8 @@
 }
 
 .btn-primary {
-    margin-left: 840px;
-    margin-right: 200px;
+    margin-left: 857px;
+    margin-right: 195px;
     margin-top: 20px;
     background-color: brown;
     color: #FFFFFF;
@@ -43,9 +68,12 @@
     font-size: 20px;
     border: 0;
     border-radius: 5px;
+    height: 60px;
+    width: 160px;
+
 }
 
-/* main section point */
+/* My failures of previous year-section */
 .first-div {
     display: flex;
     justify-content: space-between;
@@ -74,12 +102,24 @@
     height: 104px;
     font-size: 20px;
     margin-left: 80px;
+
+}
+
+li::before {
+    content: "\2713";
+    color: crimson;
+    list-style: none;
+
 }
 
 .check-point {
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 30px;
+    list-style: none;
 }
 
+/* my plane-section */
 .plane-title {
     color: #151414;
     font-weight: 700;
@@ -116,24 +156,26 @@
 
 .section1 {}
 
+/* always keep a positive mindset-section */
 .watch {
-    background:   linear-gradient(to right, rgba(255,91,36,1) 0%, rgba(242,50,2,0.83) 29%, rgba(244,89,72,0.73) 47%, rgba(248,100,84,0.72) 49%, rgba(230,106,92,0.71) 50%, rgba(229,114,96,0.52) 84%, rgba(228,118,98,0.82) 100%), url(../images/watch.png);
-    
+    background: linear-gradient(to right, rgba(255, 91, 36, 1) 0%, rgba(242, 50, 2, 0.83) 29%, rgba(244, 89, 72, 0.73) 47%, rgba(248, 100, 84, 0.72) 49%, rgba(230, 106, 92, 0.71) 50%, rgba(229, 114, 96, 0.52) 84%, rgba(228, 118, 98, 0.82) 100%), url(../images/watch.png);
+
     min-height: 20;
     border-radius: 8px;
     background-blend-mode: screen;
-    
+
     height: 300px;
-  width:900px ;
-    margin-left:150px;
-    margin-right:165px;
+    width: 900px;
+    margin-left: 150px;
+    margin-right: 165px;
     margin-bottom: 130px;
     margin-top: 124px;
 
 
 
 }
-.div-img{
+
+.div-img {
     margin-right: 20px;
 }
 
@@ -155,8 +197,104 @@
     margin-top: 24px;
     margin-bottom: 59px;
     width: 160px;
+    color: #F15B22;
 }
-.footer{
+
+/* footer work */
+.footer {
     background-color: black;
-    
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 13px;
+    margin-left: 100px;
+    margin-top: 130px;
+
+}
+
+.subscribe-title {
+    color: #F8F8F8;
+    margin-right: 250px;
+    margin-top: 130px;
+}
+
+.footer-paragraph {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 100px;
+    margin-right: 320px;
+}
+
+.button {
+    width: 170.11px;
+    height: 64px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+/* input section */
+.input-email {
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-color: #F8F8F8;
+}
+
+.input-future {
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: black;
+    width: 184px;
+    height: 26px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.input-phone {
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 186px;
+    height: 26px;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: black;
+
+}
+
+/* icon section */
+.icon {
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.fb {
+    margin-left: 12px;
+
+}
+
+.twitter {
+    margin-left: 12px;
+}
+
+.youtube {
+    margin-left: 12px;
 }
